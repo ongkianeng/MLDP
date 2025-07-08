@@ -69,3 +69,16 @@ if st.button("Predict HDB price"):
     ## Predict
     y_unseen_pred = model.predict(df_input)[0]
     st.success(f"Predicted Resale Price: ${y_unseen_pred:,.2f}")
+
+## Page design
+st.markdown(
+    f"""
+    <style>
+    .stApp {{
+        background: url("https://www.shutterstock.com/shutterstock/videos/1025418011/thumb/1.jpg");
+        background-size: cover
+    }}
+    </style>
+    """,
+    unsafe_allow_html=True
+)
