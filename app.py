@@ -10,9 +10,9 @@ model = joblib.load('model_lr_hdb.pkl')
 st.title("HDB Resale Price Prediction")
 
 ## Define the input options
-towns = ['Tampines', 'Bedok', 'Punggol']
+towns = ['Bedok', 'Punggol', 'Tampines']
 flat_types = ['2 ROOM', '3 ROOM', '4 ROOM', '5 ROOM']
-storey_ranges = ['04 TO 06', '07 TO 09', '01 TO 03']
+storey_ranges = ['01 TO 03', '04 TO 06', '07 TO 09']
 
 # towns = ['ANG MO KIO', 'BEDOK', 'BISHAN', 'BUKIT BATOK', 'BUKIT MERAH',
 #          'BUKIT PANJANG', 'BUKIT TIMAH', 'CENTRAL AREA', 'CHOA CHU KANG',
